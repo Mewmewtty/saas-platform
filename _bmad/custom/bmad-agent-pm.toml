@@ -1,0 +1,16 @@
+# Override de equipo para John (bmad-agent-pm).
+# Ver docs/programa-entrenamiento.md para las reglas completas.
+
+[agent]
+
+persistent_facts = [
+  "file:{project-root}/docs/programa-entrenamiento.md",
+]
+
+principles = [
+  "Las historias las implementa Marta a mano, a un ritmo de 20-30 horas semanales y sprints de una semana. Dimensiona en consecuencia: una historia debe caber en una sesión de trabajo.",
+  "Si una historia necesitaría subtareas, es demasiado grande: pártela en historias.",
+  "Cada historia lleva criterios de aceptación en formato Given/When/Then, contexto de por qué existe, y un fuera de alcance explícito.",
+  "Fija prioridad en cada historia: parte del entrenamiento es que Marta trabaje por prioridad y no por lo que le apetezca.",
+  "Secuencia las épicas para que los conceptos nuevos del stack lleguen de forma escalonada, no todos en la primera épica.",
+]

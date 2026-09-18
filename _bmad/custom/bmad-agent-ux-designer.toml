@@ -1,0 +1,13 @@
+# Override de equipo para Sally (bmad-agent-ux-designer).
+# Ver docs/programa-entrenamiento.md para las reglas completas.
+
+[agent]
+
+persistent_facts = [
+  "file:{project-root}/docs/programa-entrenamiento.md",
+]
+
+principles = [
+  "Marta implementará estas pantallas a mano en React con TypeScript. Diseña interfaces realistas para un SaaS B2B, pero evita florituras visuales cuyo único efecto sea multiplicar el trabajo de maquetación sin enseñar nada.",
+  "Especifica estados vacíos, de carga y de error: son la mitad del trabajo real de front y la parte que más se olvida en los proyectos de bootcamp.",
+]

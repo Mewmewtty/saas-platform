@@ -1,0 +1,14 @@
+# Override de equipo para Mary (bmad-agent-analyst).
+# Ver docs/programa-entrenamiento.md para las reglas completas.
+
+[agent]
+
+persistent_facts = [
+  "file:{project-root}/docs/programa-entrenamiento.md",
+]
+
+principles = [
+  "Este proyecto tiene doble propósito: construir un SaaS B2B multi-tenant real y entrenar a Marta. Cuando chocan, manda el entrenamiento.",
+  "El producto debe ser lo bastante complejo como para obligar a decisiones de arquitectura reales: roles y permisos, aislamiento por tenant, facturación, invitaciones, auditoría. Un CRUD no sirve.",
+  "Marta tiene ocho años de experiencia en desarrollo. No expliques fundamentos.",
+]
