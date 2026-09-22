@@ -8,7 +8,25 @@ updated: 2026-09-21
 # Product Brief: Contrato vivo de mantenimiento
 
 > Modelo de bonos cerrado por Marta el 2026-09-21. Las decisiones de detalle que quedan están al
-> final, agrupadas, y se resuelven en el PRD: ninguna contradice lo que hay escrito aquí.
+> final, agrupadas, y se resolvieron en el PRD. El PRD es posterior y manda sobre las partes
+> explícitamente superadas que se indican a continuación.
+
+> **Superado en parte por el PRD (2026-09-22).** En estos puntos manda
+> `prds/prd-saas-platform-2026-09-21/prd.md`:
+>
+> 1. **Quién crea las peticiones:** la agencia. El cliente pide por su canal
+>    habitual y no crea peticiones en la plataforma.
+> 2. **Cómo aprueba el cliente:** mediante un enlace directo, sin necesidad de
+>    navegar por la plataforma.
+> 3. **Bonos:** también requieren la aprobación del cliente, y esa aprobación
+>    es la que emite el documento de cargo.
+> 4. **Roles del cliente:** hay un rol único, y cualquier usuario del cliente
+>    puede aprobar o rechazar.
+> 5. **Peticiones aprobadas:** se pueden reducir y ampliar mediante incrementos,
+>    y existen horas imputadas no autorizadas.
+>
+> El resto del brief sigue vigente como explicación del *porqué*. Para cualquier
+> requisito, consulta el PRD.
 
 ## Resumen ejecutivo
 
